@@ -54,10 +54,23 @@ body {
   background-color: var(--card-color);
   height: 200px;
   width: 200px;
+
+  display: flex;
+  justify-content: center; /*horizontal alignment*/
+  align-items: center; /*vertical alignment*/
 }
 
-.card:hover {
+.card:hover .cardfx{
   background-color:aliceblue;
+  border-radius: 1000px;
+  height:10%;
+  width:10%;
+}
+
+.cardfx {
+  
+  background-color:aliceblue;
+  /*visibility: hidden;*/
 }
 
 /*
