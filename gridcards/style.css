@@ -26,11 +26,13 @@ body {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content:flex-start;
     /*flex-direction:row;*/
     gap: 50px;  
-    padding-top:50px; /*top gap width worth of background*/
-    max-width:calc(62.5vw + 100px); /* the addition of 100px allows for one gap width of background on either side 62.5vw is the actual size of the box*/
+    padding: 50px;
+    /*top gap width worth of background*/
+    
+    max-width:calc(62.5vw); /* the addition of 100px allows for one gap width of background on either side 62.5vw is the actual size of the box*/
     width: calc(100% - 20px);
 
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
