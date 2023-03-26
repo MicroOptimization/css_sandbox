@@ -1,0 +1,58 @@
+body {
+    margin:0px;
+}
+
+.master-container {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+
+    width:100%;
+    height:100vh;
+    
+    background-color:black;
+}
+
+.card {
+
+    width:200px;
+    height:200px;
+    margin:10px;
+    background-color:rgb(44, 44, 44);
+
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.lower-card {
+
+
+    
+    width:100%;
+    height:50px;
+    background-color:white;
+}
+
+.lower-card * {
+    color:black;
+    display:block;
+}
+
+.upper-card {
+    width:200px;
+    height:150px;
+}
+
+.thumbnail {
+    /*
+    max-width:200px;
+    max-height:200px;
+    */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
